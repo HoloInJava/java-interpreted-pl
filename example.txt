@@ -1,0 +1,13 @@
+var result = randomBetween(0, 1000);
+var try = 0;
+
+while true {
+	try = try + 1;
+	var n = inputNumber();
+	
+	if n > result: print("Too big!")
+	elseif n < result: print("Too small!")
+	else: break
+}
+
+print("You won in " + try + " tries !")
